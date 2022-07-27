@@ -1,0 +1,18 @@
+.diferencial {
+    background-repeat: no-repeat;
+    padding-left: 2.5rem;
+    box-sizing: border-box;
+}
+
+
+.diferencial--tempo {
+    background-image: url(../../images/icone-relogio.png);
+}
+
+.diferencial--foco {
+    background-image: url(../../images/icone-dinheiro.png);
+}
+
+.diferencial--especialistas {
+    background-image: url(../../images/icone-quimica.png);
+}

@@ -1,0 +1,17 @@
+.sobre__texto {
+    line-height: normal;
+    margin-bottom: 0.5rem;
+}
+
+.sobre__texto--destaque {
+    color: #4F4C4C;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px){
+
+
+    strong.sobre__texto--destaque {
+        font-weight: normal;
+    }
+}

@@ -1,0 +1,7 @@
+.plataformas {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}

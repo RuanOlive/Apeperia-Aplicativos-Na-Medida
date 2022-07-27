@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Projeto Apeperia</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-lista.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-item.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-link.css">
+    <link rel="stylesheet" href="./assets/css/chamada/chamada.css">
+    <link rel="stylesheet" href="./assets/css/chamada/chamada-titulo.css">
+    <link rel="stylesheet" href="./assets/css/chamada/chamada-texto.css">
+    <link rel="stylesheet" href="./assets/css/destaques/destaques.css">
+    <link rel="stylesheet" href="./assets/css/destaques/destaques-titulo.css">
+    <link rel="stylesheet" href="./assets/css/destaque/destaque.css">
+    <link rel="stylesheet" href="./assets/css/destaque/destaque-banner.css">
+    <link rel="stylesheet" href="./assets/css/destaque/destaque-texto.css">
+    <link rel="stylesheet" href="./assets/css/diferenciais/diferenciais.css">
+    <link rel="stylesheet" href="./assets/css/diferenciais/diferenciais-lista.css">
+    <link rel="stylesheet" href="./assets/css/diferencial/diferencial.css">
+    <link rel="stylesheet" href="./assets/css/diferencial/diferencial-titulo.css">
+    <link rel="stylesheet" href="./assets/css/diferencial/diferencial-texto.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-conteudo.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-titulo.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-texto.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-banner.css">
+    <link rel="stylesheet" href="./assets/css/plataformas.css">
+    <link rel="stylesheet" href="./assets/css/plataforma/plataforma.css">
+    <link rel="stylesheet" href="./assets/css/plataforma/plataforma-icone.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./assets/images/logo-apeperia.svg" alt="Logo da Apeperia">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item"><a class="menu__link" href="#">Sobre</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Planos</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Blog</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Destaques</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Institucional</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="chamada">
+            <h2 class="chamada__titulo">Aplicativos Na Medida</h1>
+                <p class="chamada__texto">Apeperia tem um jeito inovador de comparar e montar aplicativos para pequenas
+                    e médias empresas.</p>
+                <a class="botao">Conheça os planos</a>
+        </section>
+        <section class="destaques">
+            <h2 class="destaques__titulo">Destaques</h2>
+            <figure class="destaque">
+                <img class="destaque__banner" src="./assets/images/comecando-criar-logotipo.png"
+                    alt="Criação de Logotipo">
+                <figcaption class="destaque__texto">Conheça as primeiras etapas para a criação de um logotipo
+                </figcaption>
+            </figure>
+
+            <figure class="destaque">
+                <img class="destaque__banner" src="./assets/images/dicas-fotografia.png"
+                    alt="Dicas De Fotografia Com Celular">
+                <figcaption class="destaque__texto">Veja dicas de como fotografar usando seu celular</figcaption>
+            </figure>
+            <a class="botao botao--vermelho">Receber destaques por email</a>
+        </section>
+        <section class="diferenciais">
+            <ul class="diferenciais__lista">
+                <li class="diferencial diferencial--tempo">
+                    <h2 class="diferencial__titulo">Tempo</h2>
+                    <p class="diferencial__texto">Tempo é importante! Trabalhamos em ritmo acelerado, atendendo
+                        rigorosamente
+                        aos prazos.</p>
+                </li>
+                <li class="diferencial diferencial--foco">
+                    <h2 class="diferencial__titulo">Foco</h2>
+                    <p class="diferencial__texto">Focamos no empreendimento! Oferecemos serviços de qualidade com preços
+                        acessíveis.</p>
+                </li>
+                <li class="diferencial diferencial--especialistas">
+                    <h2 class="diferencial__titulo">Especialistas</h2>
+                    <p class="diferencial__texto">Equipe experiente e especializada! Testamos todos os produtos antes do
+                        lançamento.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="sobre">
+            <div class="sobre__conteudo">
+                <h2 class="sobre__titulo">Sobre</h2>
+                <p class="sobre__texto">Criamos aplicativos personalizados para <strong class="sobre__texto--destaque">todas as pessoas!</strong></p>
+                <p class="sobre__texto">A manutenção de um aplicativo não pode ser um custo extra para o cliente, Na Apeperia você assina nosso serviço e a manutenção já está inclusa. Assim, você não se preocupa com manutenção, é tudo por nossa conta.</p>
+                <p class="sobre__texto sobre__texto--destaque">Conte com uma equipe especializada e exclusiva pra projetos incríveis em qualquer plataforma.</p>
+                <ul class="plataformas">
+                    <li class="plataforma"><img class="plataforma__icone" src="./assets/images/android.png" alt="Ícone do Android"></li>
+                    <li class="plataforma"><img class="plataforma__icone" src="./assets/images/blackberry.png" alt="Ícone da Blackberry"></li>
+                    <li class="plataforma"><img class="plataforma__icone" src="./assets/images/apple.png" alt="Ícone da Apple"></li>
+                    <li class="plataforma"><img class="plataforma__icone" src="./assets/images/windowsphone.png" alt="Ícone da Microsoft"></li>
+                </ul>
+                <p class="sobre__texto">Desenvolvemos aplicativos para todas as plataformas</p>
+            </div>
+
+            <img class="sobre__banner" src="./assets/images/sobre-apeperia.png" alt="sobre apeperia">
+        </section>
+
+    </main>
+</body>
+
+</html>

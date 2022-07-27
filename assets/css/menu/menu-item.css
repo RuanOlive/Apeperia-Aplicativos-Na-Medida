@@ -1,0 +1,6 @@
+.menu__item {
+    display: inline-block;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding-bottom: 1rem;
+}

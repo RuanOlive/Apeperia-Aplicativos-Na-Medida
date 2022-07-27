@@ -1,0 +1,9 @@
+.sobre__titulo {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    color: #4F4C4C;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2rem;
+}

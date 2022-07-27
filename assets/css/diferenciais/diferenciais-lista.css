@@ -1,0 +1,14 @@
+.diferenciais__lista {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+    .diferenciais__lista {
+        padding: 0 100px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
