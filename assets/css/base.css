@@ -4,6 +4,7 @@ body{
 
 .botao {
     display: block;
+    cursor: pointer;
     width: 100%;
     padding: 1rem 2rem;
     border: 1px solid #ffffff;
